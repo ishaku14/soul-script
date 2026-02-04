@@ -3,6 +3,14 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgb(175, 175, 175);
+  background-color: rgb(26, 32, 61);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 22;
+  height: 50px;
 }
 
 .left-seciton {
@@ -11,6 +19,7 @@
 
 .left-seciton h2 {
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .main h2 {
@@ -37,8 +46,26 @@
   color: black;
 }
 
-.theme-grid-container .themes {
-  padding: 1rem 2rem;
-  background-color: white;
+.theme-grid-container a .themes {
+  height: 120px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(28, 33, 39);
   border-radius: 12px;
+  font-size: 0.65rem;
+  border: 1px solid rgb(90, 90, 90);
+  /* white-space: nowrap; */
+  color: rgb(216, 216, 216);
+}
+
+.themes h3 {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.themes img {
+  width: 24px;
 }
