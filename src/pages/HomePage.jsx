@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { Header } from '../components/Header';
 import FaithIcon from '../assets/images/icons/cathedral-icon.png';
 import BookIcon from '../assets/images/icons/open-book-icon.png';
 import MountainIcon from '../assets/images/icons/mountain-icon.png';
@@ -10,15 +11,7 @@ import "./HomePage.css";
 export function HomePage() {
   return (
     <>
-      <div className="header">
-        <div className="left-seciton">
-          <h2>SoulScript</h2>
-        </div>
-
-        <div className="right-seciton">
-          {/* <img src="" alt="Profile image" /> */}
-        </div>
-      </div>
+      <Header />
 
       <div className="main">
         <h2 className="text-white text-3xl font-bold">Verse & Reflection Navigator</h2>
